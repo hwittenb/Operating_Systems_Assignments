@@ -1,4 +1,8 @@
-
+/***************
+Course: CS 3502 - Operating Systems
+Section: 1
+Name: Harrison Wittenbrook
+***************/
 public class Semaphore {
 	private int sem;
 	
@@ -11,6 +15,7 @@ public class Semaphore {
 				System.exit(0);
 			}
 		}
+		sem--;
 	}
 	
 	public synchronized void signal() {
